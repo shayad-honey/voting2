@@ -53,40 +53,55 @@ li a{
 .forgot-password-form{
     display: grid;
 grid-template-columns: 50vw;
-    width: 50vw;
-    height: 50vh;
+
+.container div{ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3px 5px;
+  input{
+    background: rgb(255, 255, 255);
+    padding:10px 60px;
+    margin: 5px 0;
+    border-radius: 12px;
+    
+  }
+  
+  
+}
+.forgotdis{
+  width: 100%;
+  height: auto;
+}
+
+
+}
+form{
+  margin-top: 25px;
+  width: 50vw;
+  height: 50vh;
   /* padding: 30px; */
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
-    border-radius: 15px;
-    padding: 10px;
-    
-    .container div{ 
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      padding: 3px 5px;
-      input{
-        background: rgb(86, 60, 146);
-        padding:10px 60px;
-        margin: 5px 0;
-        border-radius: 12px;
-        
-      }
-
-
-    }
-     .forgotdis{
-width: 100%;
-height: auto;
-     }
-     
-
-}
-form{
+  border-radius: 15px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
+}
+button{
+  background: rgba(41, 175, 70, 0.993);
+  padding: 10px 40px;
+  border-radius: 12px;
+  color: white;
+  margin: 10px 50px;
+  border: none;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
